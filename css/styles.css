@@ -26,13 +26,7 @@ button {
     color: #FFFFFF;
     cursor: pointer;
     text-transform: capitalize;
-    text-align: center;
-    border: none;
-    border-radius: 4px;
-    padding: 16px 32px;
-    margin: 0 auto;
-    display: block;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
 }
 
 .button:hover {
@@ -46,19 +40,18 @@ button {
 /*#endregion base*/
 
 /*#region header*/
-.logo-dark{
+.logo{
     font-family: "Raleway", sans-serif;
-    color: #2E2F42;
     font-weight: 700;
     font-size: 18px;
-    text-transform: uppercase;
-    text-decoration: none;
-    line-height: 1.17;
+    line-height: 1.16;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 
-.logo-accent{
-    color: #4D5AE5;
+.logo-accent-dark{
+    color: #2e2f42;
 }
 
 
@@ -81,7 +74,9 @@ button {
     text-decoration: underline;
 }
 
-
+.nav-contact{
+    font-style: normal;
+}
 .contact-item-link{
     color: #434455;
     font-weight: 400;
@@ -182,6 +177,7 @@ button {
 /*#endregion*/
 
 /*#region footer*/
+
 .footer{
     background-color: #2E2F42;
 }
@@ -191,14 +187,8 @@ button {
 
 }
 
-.logo-light{
-    font-family: "Raleway", sans-serif;
-    color: #F4F4FD;
-    font-weight: 700;
-    font-size: 18px;
-    text-transform: uppercase;
-    text-decoration: none;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
+.logo-accent-light{
+    color: #f4f4fd;
 }
+
 /*#endregion*/
