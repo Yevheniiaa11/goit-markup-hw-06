@@ -21,21 +21,7 @@ button {
     font-family: inherit;
 }
 
-.button {
-    background-color: #4D5AE5;
-    color: #FFFFFF;
-    cursor: pointer;
-    text-transform: capitalize;
-    letter-spacing: 0.04em;
-}
 
-.button:hover {
-    background-color: #404BBF;
-}
-
-.button:focus {
-    background-color: #404BBF;
-}
 
 /*#endregion base*/
 
@@ -44,7 +30,7 @@ button {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -102,6 +88,25 @@ button {
     font-size: 56px; 
     letter-spacing: 0.02em;
     line-height: 1.07;
+    text-align: center;
+}
+
+.button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-transform: capitalize;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.button:hover {
+    background-color: #404BBF;
+}
+
+.button:focus {
+    background-color: #404BBF;
 }
 /*#endregion*/
 
@@ -132,6 +137,7 @@ button {
     font-weight: 700px;
     letter-spacing: 0.02em;
     line-height: 1.11;
+    text-transform: capitalize;
 
 }
 
@@ -147,6 +153,11 @@ button {
     letter-spacing: 0.02em;
     line-height: 1.2;
 }
+
+.team-card-prgh{
+    font-size: 16px;
+    letter-spacing: 0.02em;
+}
 /*#endregion*/
 
 /*#region portfolio section*/
@@ -160,7 +171,8 @@ button {
     font-weight: 700px;
     letter-spacing: 0.02em;
     line-height: 1.11;
-
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .portfolio-card{
@@ -172,7 +184,15 @@ button {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
+    line-height: 1.2;
 
+}
+
+.portfolio-card-prgh{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 /*#endregion*/
 
@@ -184,7 +204,7 @@ button {
 
 .footer-paragraph{
     color: #F4F4FD;
-
+    letter-spacing: 0.02em;
 }
 
 .logo-accent-light{
