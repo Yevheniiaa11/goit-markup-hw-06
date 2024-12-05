@@ -77,6 +77,7 @@ button {
 }
 /*#endregion*/
 
+  
 /*#region main*/
 .main-section{
     background-color: #2E2F42;
@@ -139,7 +140,6 @@ button {
     letter-spacing: 0.02em;
     line-height: 1.11;
     text-transform: capitalize;
-
 }
 
 .team-card{
@@ -213,3 +213,4 @@ button {
 }
 
 /*#endregion*/
+
