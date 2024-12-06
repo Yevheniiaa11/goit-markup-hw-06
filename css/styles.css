@@ -71,12 +71,12 @@ img{
 .header-container {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #e7e9fc;
 
 }
 .nav-style{
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #e7e9fc;
 }
 .logo{
     font-family: "Raleway", sans-serif;
@@ -167,7 +167,7 @@ img{
     font-size: 56px; 
     letter-spacing: 0.02em;
     line-height: 1.07;
-    width: 496px;
+    max-width: 496px;
     margin: 0 auto;
     
 }
@@ -182,8 +182,9 @@ img{
     font-weight: 500;
     line-height: 1.5;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    border: none;
     border-radius: 4px;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     margin-top: 48px;
     display: block;
@@ -257,7 +258,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    gap: 24px 48px;
+    gap: 24px;
     justify-content: flex-start;
 }
 .team-card{
@@ -275,13 +276,13 @@ img{
     letter-spacing: 0.02em;
     line-height: 1.2;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-card-prgh{
     font-size: 16px;
     letter-spacing: 0.02em;
     text-align: center;
-    padding-top: 8px;
 
 }
 
@@ -331,7 +332,7 @@ img{
     font-size: 20px;
     letter-spacing: 0.02em;
     line-height: 1.2;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 
 }
 
@@ -355,18 +356,23 @@ img{
 
 .footer{
     background-color: #2E2F42;
-    padding: 100px 1020px 100px 156px;
+    padding: 100px 0;
 }
 
 .footer-paragraph{
     color: #F4F4FD;
     letter-spacing: 0.02em;
     width: 264px;
-    margin-top: 16px;
+    
 }
 
 .logo-accent-light{
     color: #f4f4fd;
+}
+
+.footer .logo{
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 /*#endregion*/
