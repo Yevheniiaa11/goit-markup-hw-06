@@ -40,7 +40,7 @@
     <section class="main-section">
     <div class="container">
         <h1 class="main-title">Effective Solutions for Your Business</h1>
-        <button class="button" type="button">Order Service</button>
+        <button class="button" type="button" data-modal-open>Order Service</button>
     </div>
     </section>
 <!-- our benefits section -->
@@ -424,10 +424,10 @@
         </div>
     </div>
   </footer>
-  <div class="modal-overlay is-open">
+  <div class="modal-overlay" data-modal>
     <div class="modal">
         <p class="modal-text">Leave your contacts and we will call you back</p>
-        <button type="submit" class="button-close">
+        <button type="submit" class="button-close" data-modal-close>
             <svg class="close-icon" width="8" height="8">
                 <use href="./images/icons.svg#icon-close"></use>
             </svg>
@@ -505,4 +505,5 @@
 
     </div>
   </div>
+  <script src="./js/modal.js"></script>
 </body>
