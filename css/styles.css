@@ -563,6 +563,7 @@ img{
 .footer-form {
     display: flex;
     align-items: flex-end;
+    gap: 24px;
 }
 
 
@@ -586,7 +587,7 @@ img{
 .footer-button {
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     background-color: #4d5ae5;
     font-weight: 500;
@@ -601,7 +602,6 @@ img{
     justify-content: center;
     flex-direction: row;
     gap: 16px;
-    margin-left: 24px;
     cursor: pointer;
 }
 
@@ -612,6 +612,7 @@ img{
 
 .icon-send{
     fill: #FFFFFF;
+    margin-left: 16px;
 }
 /*#endregion*/
 
